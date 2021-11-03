@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "games": "Games",
+    "partners": "Partners",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Lorem ipsum dolor sit amet consectetur <a href='#' class='text-blue-600 hover:text-blue-800'>adipisicing</a> elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint."
+  },
+  "about": {
+    "title": "About",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta incidunt ea ut commodi quidem temporibus illo quia. Et itaque deleniti veniam tempore facere ipsum animi totam culpa minima vel voluptatem adipisci natus blanditiis similique sunt expedita, ex dicta doloremque repellat vitae temporibus. Quisquam quia, accusantium blanditiis architecto facilis saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde laborum ut suscipit iure aliquam sapiente doloribus exercitationem nam sint."
+  }
+}
