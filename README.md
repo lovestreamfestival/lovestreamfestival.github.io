@@ -1,4 +1,4 @@
-# Curious Games Homepage 
+# Lovestream Festival Homepage 
 
 ## Project setup
 ```
