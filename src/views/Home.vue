@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen mx-auto text-center">
-    <h1 class="text-4xl">Under Construction</h1>
+    <h1 class="text-4xl">Under Construction!</h1>
   </div>
 </template>
 
