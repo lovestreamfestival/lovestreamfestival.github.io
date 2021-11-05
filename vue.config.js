@@ -1,5 +1,5 @@
 module.exports = {
-publicPath: process.env.NODE_ENV === "production" ? "/lovestreamfestivalhub.io.git/" : "/",
+publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
   pluginOptions: {
     i18n: {
       locale: 'en',
