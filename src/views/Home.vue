@@ -1,9 +1,6 @@
 <template>
-  <div class="w-screen mx-auto text-center">
-    <p><img src="/gfx/logo.png" alt=""></p>
-  </div>
+
+
+      <p><img src="/gfx/logo.png" alt=""></p>
+
 </template>
-
-<style scoped lang="scss">
-
-</style>

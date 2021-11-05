@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="relative">
-    <div>
+  <div class="flex items-center justify-center h-screen">
+    <div class="text-center"> 
       <router-view />
     </div>
   </div>
