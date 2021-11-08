@@ -1,8 +1,6 @@
 <template>
-  <div class="flex items-center justify-center h-screen" id="app">
-    <div class="text-center"> 
+  <div id="app">
       <router-view />
-    </div>
   </div>
 </template>
 
@@ -13,6 +11,8 @@
 // import MegaMenu from "@/components/MegaMenu.vue";
 // import ModalLogin from "@/components/ModalLogin.vue";
 // import ModalRegister from "@/components/ModalRegister.vue";
+import "splitting/dist/splitting.css";
+import "splitting/dist/splitting-cells.css";
 
 export default {
   name: "app",
