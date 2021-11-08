@@ -1,43 +1,45 @@
 <template>
-<div class="text-white">
-  <section class="intro-section">
-    <h1 class="intro-heading"><img src="/gfx/logo.png" alt=""></h1>
+<div>
+  <section class="text-3xl text-black intro-section">
+    <p class="intro-heading"><img src="/gfx/logo.png" class="max-w-md"></p>
+    <p>10-12th of JUNE, 2022</p>
+    <p>Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
   </section>
 
   <section class="content-section" data-scroll>
-    <figure class="figure"><img src="https://source.unsplash.com/bl_NUhqLC8o/800x800" /></figure>
+    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
     <div class="content">
       <header class="header">
-        <div class="subheading">All-Old Techniques</div>
-        <h2 class="heading">Not Evolved,<br />not transformed either.</h2>
+        <div class="text-white subheading">Headliner</div>
+        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
       </header>
-      <p class="paragraph">
+      <p class="text-white paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
       </p>
     </div>
   </section>
 
   <section class="content-section" data-scroll>
-    <figure class="figure"><img src="https://source.unsplash.com/rCOWMC8qf8A/800x800" /></figure>
+    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
     <div class="content">
       <header class="header">
-        <div class="subheading">All-Old Techniques</div>
-        <h2 class="heading">Not Evolved,<br />not transformed either.</h2>
+        <div class="text-white subheading">Headliner</div>
+        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
       </header>
-      <p class="paragraph">
+      <p class="text-white paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
       </p>
     </div>
   </section>
 
   <section class="content-section" data-scroll>
-    <figure class="figure"><img src="https://source.unsplash.com/mAsKA0jFfeQ/800x800" /></figure>
+    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
     <div class="content">
       <header class="header">
-        <div class="subheading">All-Old Techniques</div>
-        <h2 class="heading">Not Evolved,<br />not transformed either.</h2>
+        <div class="text-white subheading">Headliner</div>
+        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
       </header>
-      <p class="paragraph">
+      <p class="text-white paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
       </p>
     </div>
@@ -119,10 +121,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    max-width: 35em;
+    // max-width: 35em;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    color: white;
     padding: 2em;
     font-size: 2.5vmin;
 
