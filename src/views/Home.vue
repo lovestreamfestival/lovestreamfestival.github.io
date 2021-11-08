@@ -1,9 +1,10 @@
 <template>
 <div>
-  <section class="text-3xl text-black intro-section">
-    <p class="intro-heading"><img src="/gfx/logo.png" class="max-w-md"></p>
-    <p>10-12th of JUNE, 2022</p>
-    <p>Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
+  <section class="text-3xl uppercase intro-section">
+    <h1 class="font-bold tracking-widest text-red-500 uppercase">Lovestream Festival</h1>
+    <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
+    <p class="text-black">10-12th of JUNE, 2022</p>
+    <p class="text-black">Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
   </section>
 
   <section class="content-section" data-scroll>
@@ -82,6 +83,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .logo {
+    max-width: 5rem;
+    margin-bottom: 4rem;
   }
 
   .content-section {
