@@ -1,5 +1,10 @@
 <template>
-<div>
+<div class="relative">
+  
+  <div class="sticky top-0 z-50">
+    <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-20"></div>
+  </div>
+  
   <section class="text-3xl uppercase intro-section">
     <h1 class="font-bold tracking-widest text-red-500 uppercase">Lovestream Festival</h1>
     <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
@@ -75,7 +80,9 @@
 </script>
 
 <style lang="scss">
-
+  .fixedlogo {
+    z-index: 9999999999;
+  }
   .intro-section {
     text-align: center;
     min-height: 70vh;
@@ -85,7 +92,7 @@
     justify-content: center;
   }
   .logo {
-    max-width: 5rem;
+    width: 8rem;
     margin-bottom: 4rem;
   }
 
