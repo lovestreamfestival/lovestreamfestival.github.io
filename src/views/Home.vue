@@ -2,7 +2,7 @@
 <div class="relative font-no2roman">
   
   <div class="sticky top-0 z-50">
-    <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-20"></div>
+    <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-40"></div>
   </div>
   
   <section class="text-3xl uppercase intro-section ">
@@ -92,7 +92,7 @@
     justify-content: center;
   }
   .logo {
-    width: 8rem;
+    width: 15rem;
     margin-bottom: 4rem;
   }
 
