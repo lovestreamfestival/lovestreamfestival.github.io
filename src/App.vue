@@ -1,59 +1,68 @@
 <template>
 
   <div id="app">
-<div class="relative font-no2roman">
-  
-  <div class="sticky top-0 z-50">
-    <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-40"></div>
-  </div>
-  
-  <section class="text-3xl uppercase intro-section ">
-    <h1 class="text-6xl font-bold tracking-widest text-red-500 uppercase font-no2roman">Lovestream Festival</h1>
-    <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
-    <p class="text-black">10-12th of JUNE, 2022</p>
-    <p class="text-black">Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
-  </section>
+    <div class="relative font-no2roman">
+      
+      <div class="sticky top-0 z-50">
+        <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-40"></div>
+      </div>
+      
+      <section class="text-3xl uppercase intro-section ">
+        <h1 class="text-6xl font-bold tracking-widest text-red-500 uppercase font-no2roman">Lovestream Festival</h1>
+        <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
+        <p class="text-black">10-12th of JUNE, 2022</p>
+        <p class="text-black">Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
+      </section>
 
-  <section class="content-section" data-scroll>
-    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
-    <div class="content">
-      <header class="header">
-        <div class="text-white subheading">Headliner</div>
-        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
-      </header>
-      <p class="text-white paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-      </p>
+      <section class="content-section" data-scroll>
+        <figure class="figure">
+          <img src="/img/RHCP.jpg" class="hidden sm:block" />
+          <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
+        </figure>
+        <div class="content">
+          <header class="header">
+            <div class="text-white subheading">Headliner</div>
+            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+          </header>
+          <p class="text-white paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section" data-scroll>
+        <figure class="figure">
+          <img src="/img/RHCP.jpg" class="hidden sm:block" />
+          <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
+        </figure>
+        <div class="content">
+          <header class="header">
+            <div class="text-white subheading">Headliner</div>
+            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+          </header>
+          <p class="text-white paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section" data-scroll>
+        <figure class="figure">
+          <img src="/img/RHCP.jpg" class="hidden sm:block" />
+          <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
+        </figure>
+        <div class="content">
+          <header class="header">
+            <div class="text-white subheading">Headliner</div>
+            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+          </header>
+          <p class="text-white paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
+          </p>
+        </div>
+      </section>
+
     </div>
-  </section>
-
-  <section class="content-section" data-scroll>
-    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
-    <div class="content">
-      <header class="header">
-        <div class="text-white subheading">Headliner</div>
-        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
-      </header>
-      <p class="text-white paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-      </p>
-    </div>
-  </section>
-
-  <section class="content-section" data-scroll>
-    <figure class="figure"><img src="/img/RHCP.jpg" /></figure>
-    <div class="content">
-      <header class="header">
-        <div class="text-white subheading">Headliner</div>
-        <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
-      </header>
-      <p class="text-white paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-      </p>
-    </div>
-  </section>
-
-</div>
   </div>
 
 </template>
@@ -84,6 +93,7 @@
 
 <style src="@/assets/css/tailwind.css" />
 <style lang="scss">
+
   .fixedlogo {
     z-index: 9999999999;
   }
@@ -122,7 +132,7 @@
     left: 0;
 
     > img { 
-      display: block;
+      /* display: block; */
       width: 100%;
       height: 100%;
       max-width: 100%;
@@ -199,7 +209,7 @@
     }
 
     > img {
-      display: block;
+      /* display: block; */
       will-change: transform;
       transform: scale(calc(1 / var(--scale)));
     }
