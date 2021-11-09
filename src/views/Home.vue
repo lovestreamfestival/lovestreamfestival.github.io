@@ -1,12 +1,12 @@
 <template>
-<div class="relative">
+<div class="relative font-no2roman">
   
   <div class="sticky top-0 z-50">
     <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-20"></div>
   </div>
   
-  <section class="text-3xl uppercase intro-section">
-    <h1 class="font-bold tracking-widest text-red-500 uppercase">Lovestream Festival</h1>
+  <section class="text-3xl uppercase intro-section ">
+    <h1 class="text-6xl font-bold tracking-widest text-red-500 uppercase font-no2roman">Lovestream Festival</h1>
     <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
     <p class="text-black">10-12th of JUNE, 2022</p>
     <p class="text-black">Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
@@ -234,6 +234,5 @@
     line-height: 1.05;
     font-weight: 400;
     letter-spacing: -.015em;
-    font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
 </style>

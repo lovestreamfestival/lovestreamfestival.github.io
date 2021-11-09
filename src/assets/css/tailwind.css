@@ -7,3 +7,8 @@
 .v--modal {
   overflow-y: auto !important;
 }
+
+@font-face {
+  font-family: 'FranklinGothicStdNo2Roman';
+  src: local('FranklinGothicStdNo2Roman'), url(/font/franklin-gothic-std-no-2-roman.woff) format('woff');
+}

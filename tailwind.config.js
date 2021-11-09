@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'no2roman': ['FranklinGothicStdNo2Roman']
+      },
       spacing: {
         '29': '6.95rem',
         '80': '20rem',
