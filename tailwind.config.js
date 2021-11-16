@@ -34,8 +34,15 @@ module.exports = {
         '-10': '-10',
       },
       colors: {
-        'cur-pink': '#FF0099',
-        'cur-blue': '#4CB7EB',
+        'lsf-red': '#ed1c24',
+      },
+      borderWidth: {
+        '9': '9px',
+        '10': '10px',
+        '11': '11px',
+        '12': '12px',
+        '14': '14px',
+        '16': '16px',
       }
 
     },

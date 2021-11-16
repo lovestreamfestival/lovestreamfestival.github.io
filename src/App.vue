@@ -8,57 +8,49 @@
       </div>
       
       <section class="text-3xl uppercase intro-section ">
-        <h1 class="text-6xl font-bold tracking-widest text-red-500 uppercase font-no2roman">Lovestream Festival</h1>
+        <h1 class="text-6xl font-bold tracking-widest uppercase text-lsf-red font-no2roman">Lovestream Festival</h1>
         <p class="intro-heading"><img src="/gfx/logo-heart.png" class="logo"></p>
-        <p class="text-black">10-12th of JUNE, 2022</p>
-        <p class="text-black">Tehelne Pole Stadium, <span class="text-red-600">Bratislava</span></p>
+        <p class="text-black">12th of JUNE, 2022</p>
+        <p class="text-black">Tehelne Pole Stadium, <span class="text-lsf-red">Bratislava</span></p>
       </section>
 
       <section class="content-section" data-scroll>
-        <figure class="figure">
+        <figure class="border-8 figure md:border-12 border-lsf-red">
           <img src="/img/RHCP.jpg" class="hidden sm:block" />
           <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
         </figure>
-        <div class="content">
-          <header class="header">
-            <div class="text-white subheading">Headliner</div>
+        <div class="text-center content">
+          <header class="border-b-8 border-white header">
             <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
           </header>
-          <p class="text-white paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-          </p>
         </div>
       </section>
 
       <section class="content-section" data-scroll>
-        <figure class="figure">
-          <img src="/img/RHCP.jpg" class="hidden sm:block" />
-          <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
+        <figure class="border-8 border-black figure figurewhite md:border-12">
+          <img src="/gfx/white.png" class="hidden sm:block" />
+          <img src="/gfx/white.png" class="block sm:hidden" />
         </figure>
         <div class="content">
           <header class="header">
-            <div class="text-white subheading">Headliner</div>
-            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+            <h2 class="text-black uppercase heading">MåNESKIN</h2>
+            <p class="text-lsf-red paragraph">NO NAME, <span class="text-black">HORKYZE SLIZE,</span> INE CAFE</p>
+            <p class="text-black paragraph">and many more!</p>
           </header>
-          <p class="text-white paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-          </p>
         </div>
       </section>
 
       <section class="content-section" data-scroll>
-        <figure class="figure">
-          <img src="/img/RHCP.jpg" class="hidden sm:block" />
-          <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
+        <figure class="border-8 border-white figure figureblank md:border-12">
+          <img src="/gfx/black.png" class="hidden sm:block" />
+          <img src="/gfx/black.png" class="block sm:hidden" />
         </figure>
         <div class="content">
           <header class="header">
-            <div class="text-white subheading">Headliner</div>
-            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+            <h2 class="text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/sk/listky/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
+            
+            <p class="text-white paragraph">a Silvi Production presentation by arrangement with Marcel Avram and Concerts East</p>
           </header>
-          <p class="text-white paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
-          </p>
         </div>
       </section>
 
@@ -212,6 +204,33 @@
       /* display: block; */
       will-change: transform;
       transform: scale(calc(1 / var(--scale)));
+    }
+  }
+
+  .figurewhite {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-color: rgba(white, 1);
+      opacity: calc( var(--visible-y) );
+    }
+  }
+  .figureblack {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-color: black;
+      opacity: calc( var(--visible-y) );
     }
   }
 
