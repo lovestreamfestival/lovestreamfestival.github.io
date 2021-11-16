@@ -19,9 +19,12 @@
           <img src="/img/RHCP.jpg" class="hidden sm:block" />
           <img src="/img/RHCP-p.jpg" class="block sm:hidden" />
         </figure>
-        <div class="text-center content">
-          <header class="border-b-8 border-white header">
-            <h2 class="text-red-600 heading">RED HOT CHILI PEPPERS</h2>
+        <div class="content">
+          <header class="header">
+            <div class="grid p-0">
+              <h2 class="text-white border-b-8 border-lsf-red heading place-self-center">RED HOT CHILI PEPPERS</h2>
+              <p class="place-self-center"><img src="/img/RHCP-logo.png" class="pt-20 w-60" /></p>
+            </div>
           </header>
         </div>
       </section>
@@ -47,7 +50,7 @@
         </figure>
         <div class="content">
           <header class="header">
-            <h2 class="text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/sk/listky/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
+            <h2 class="text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/en/tickets/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
             
             <p class="text-white paragraph">a Silvi Production presentation by arrangement with Marcel Avram and Concerts East</p>
           </header>
