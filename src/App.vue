@@ -48,7 +48,7 @@
         </figure>
         <div class="relative content">
           <header class="header">
-            <h2 class="text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/en/tickets/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
+            <h2 class="z-50 text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/en/tickets/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
             <p class="text-white paragraph">a Silvi Production presentation by arrangement with Marcel Avram and Concerts East</p>
             
           </header>
