@@ -67,42 +67,13 @@ module.exports = {
           "0%": { transform: "translateY(0)" },
           "30%": { transform: "translateY(60px)" }
         }
-      },
+      }
 
     },
-    linearBorderGradients: {
-      directions: { // defaults to these values
-        't': 'to top',
-        'tr': 'to top right',
-        'r': 'to right',
-        'br': 'to bottom right',
-        'b': 'to bottom',
-        'bl': 'to bottom left',
-        'l': 'to left',
-        'tl': 'to top left',
-      },
-      colors: { // defaults to {}
-        'black-white-with-stops': ['#000', '#000 45%', '#fff 55%', '#fff'],
-        'curious': ['#FF0099', '#4CB7EB'],
-      },
-    },
-    repeatingLinearBorderGradients: theme => ({
-      directions: theme('linearBorderGradients.directions'), // defaults to the same values as linearBorderGradients’ directions
-      colors: theme('linearBorderGradients.colors'), // defaults to {}
-      lengths: { // defaults to {}
-        'sm': '25px',
-        'md': '50px',
-        'lg': '100px',
-      },
-    }),
+
   },
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     backgroundColor: ['responsive', 'hover', 'focus', 'even', 'odd'],
-    linearBorderGradients: ['responsive'], // defaults to ['responsive']
-    repeatingLinearBorderGradients: ['responsive'], // defaults to ['responsive']
-  },
-  plugins: [
-    require('tailwindcss-border-gradients')(),
-  ]
+  }
 }
