@@ -4,7 +4,7 @@
     <div class="relative font-no2roman">
       
       <div class="sticky top-0 z-50">
-        <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-4 justify-self-end max-h-40"></div>
+        <div class="grid"><img src="/gfx/logo-heart-w.png" class="m-8 justify-self-end max-h-40"></div>
       </div>
       
       <section class="text-3xl uppercase intro-section ">
@@ -21,10 +21,8 @@
         </figure>
         <div class="content">
           <header class="header">
-            <div class="grid p-0">
+              <p class="place-self-center"><img src="/img/RHCP-logo.png" class="pb-20 w-60" /></p>
               <h2 class="text-white border-b-8 border-lsf-red heading place-self-center">RED HOT CHILI PEPPERS</h2>
-              <p class="place-self-center"><img src="/img/RHCP-logo.png" class="pt-20 w-60" /></p>
-            </div>
           </header>
         </div>
       </section>
@@ -48,12 +46,54 @@
           <img src="/gfx/black.png" class="hidden sm:block" />
           <img src="/gfx/black.png" class="block sm:hidden" />
         </figure>
-        <div class="content">
+        <div class="relative content">
           <header class="header">
             <h2 class="text-white uppercase heading">FOR TICKETS:<br><a href="https://predpredaj.zoznam.sk/en/tickets/lovestream-festival-2022-06-12/" target="_blank">WWW.PREDPREDAJ.SK</a></h2>
-            
             <p class="text-white paragraph">a Silvi Production presentation by arrangement with Marcel Avram and Concerts East</p>
+            
           </header>
+          <a class="absolute text-gray-700 bottom-12 right-8" href="https://tarikkavaz.com" target="_blank">
+            <svg
+              viewBox="0 0 1856.41 1903.46"
+              class="w-12 h-12 animate-wiggle"
+              title="Logo"
+            >
+              <defs>
+                <symbol id="a" viewBox="0 0 378.03 387.61">
+                  <path
+                    d="M43.19,325,2,230.24a24.09,24.09,0,0,1,12.48-31.69L305.16,72.17a24.06,24.06,0,0,1,31.68,12.48L378,179.37Z"
+                    class="text-gray-700 fill-current"
+                  />
+                  <polygon 
+                    points="316.06 336.55 198.63 387.61 153.33 283.42 270.75 232.36 316.06 336.55"
+                    class="text-gray-700 fill-current"
+                  />
+                  <polygon
+                    points="215.03 104.19 97.6 155.25 52.3 51.06 169.72 0 215.03 104.19"
+                    class="text-gray-700 fill-current"
+                  />
+                  <path
+                    class="fill-current text-dotred"
+                    d="M40.31,237.84h0a14,14,0,0,1-18.37-7.24h0a14,14,0,0,1,7.23-18.38h0a14,14,0,0,1,18.38,7.24h0A14,14,0,0,1,40.31,237.84Z"
+                  />
+                  <path
+                    class="fill-current text-dotyellow"
+                    d="M72.91,223.66h0a14,14,0,0,1-18.37-7.24h0A14,14,0,0,1,61.78,198h0a14,14,0,0,1,18.37,7.24h0A14,14,0,0,1,72.91,223.66Z"
+                  />
+                  <path
+                    class="fill-current text-dotgreen"
+                    d="M105.68,209.85h0a14.42,14.42,0,0,1-18.91-7.44h0a14.41,14.41,0,0,1,7.45-18.91h0a14.41,14.41,0,0,1,18.9,7.45h0A14.41,14.41,0,0,1,105.68,209.85Z"
+                  />
+                </symbol>
+              </defs>
+              <use
+                width="378.03"
+                height="387.61"
+                transform="translate(0 0) scale(4.91)"
+                xlink:href="#a"
+              />
+            </svg>
+          </a>
         </div>
       </section>
 
