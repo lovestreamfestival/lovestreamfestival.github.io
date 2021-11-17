@@ -1,11 +1,11 @@
 module.exports = {
-  // mode: 'jit',
-  // purge: [
-  //   './public/index.html',
-  //   './src/**/*.html',
-  //   './src/**/*.vue',
-  //   './src/**/*.jsx',
-  // ],
+  mode: 'jit',
+  purge: [
+    './public/index.html',
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -34,7 +34,7 @@ module.exports = {
         '-10': '-10',
       },
       colors: {
-        'lsf-red': '#ed1c24',
+        'lsf-red': '#bd0837',
         dotred: '#f16667',
         dotyellow: '#ffce34',
         dotgreen: '#50b648',
